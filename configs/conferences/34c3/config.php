@@ -128,8 +128,8 @@ $CONFIG['OVERVIEW'] = array(
 
 		'Specials' => array(
 			'c3tv',
+			'uewagen',
 			'freifunk',
-			'uewagen'
 		),
 
 //		'Specials' => array(
