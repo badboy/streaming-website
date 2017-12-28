@@ -141,12 +141,7 @@ $CONFIG['OVERVIEW'] = array(
 //		),
 // Do not add "4k" here, see 34c3/overview.phtml - sorry
 
-//		'Live Music'  => array(
-//			'unwetterbar',
-//			'electric_cube',
-//			'shell_beach',
-//			'bar',
-//		),
+		// Live music - see 34c3_lounges
 	),
 );
 
@@ -676,32 +671,6 @@ $CONFIG['ROOMS'] = array(
 // 			'TEXT'    => '#34C3 #halld #4k',
 // 		),
 // 	),
-//
-
-//	'unwetterbar' => array(
-//		'DISPLAY' => 'Unwetterbar (Halle 1 / 3)',
-//		'STREAM' => 'a1',
-//		'MUSIC' => true,
-//		'EMBED' => false,
-//	),
-//	'electric_cube' => array(
-//		'DISPLAY' => 'Electric Cube (Halle 2 / CCL)',
-//		'STREAM' => 'a2',
-//		'MUSIC' => true,
-//		'EMBED' => false,
-//	),
-//	'shell_beach' => array(
-//		'DISPLAY' => 'Shell Beach (CCL unten)',
-//		'STREAM' => 'a3',
-//		'MUSIC' => true,
-//		'EMBED' => false,
-//	),
-//	'bar' => array(
-//		'DISPLAY' => 'Bar (Halle 2)',
-//		'STREAM' => 'a4',
-//		'MUSIC' => true,
-//		'EMBED' => false,
-//	),
 //
 );
 
