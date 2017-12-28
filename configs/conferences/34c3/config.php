@@ -129,6 +129,7 @@ $CONFIG['OVERVIEW'] = array(
 		'Specials' => array(
 			'c3tv',
 			'freifunk',
+			'uewagen'
 		),
 
 //		'Specials' => array(
@@ -521,7 +522,7 @@ $CONFIG['ROOMS'] = array(
 		'STREAM' => 'sc3tv',
 		'PREVIEW' => true,
 		'TRANSLATION' => false,
-		'SD_VIDEO' => true,
+		'SD_VIDEO' => false,
 		'HD_VIDEO' => true,
 		'DASH' => false,
 		'AUDIO' => true,
@@ -601,7 +602,7 @@ $CONFIG['ROOMS'] = array(
 		'STREAM' => 'sfreifunk', # TODO fix "sfreifunk"
 		'PREVIEW' => true, # TODO check / run downloader on transcorder
 		'TRANSLATION' => false,
-		'SD_VIDEO' => true,
+		'SD_VIDEO' => false,
 		'HD_VIDEO' => true,
 		'DASH' => false,
 		'AUDIO' => true,
@@ -620,31 +621,31 @@ $CONFIG['ROOMS'] = array(
 			'TEXT'    => '#ff34c3',
 		),
 	),
-//
-//	'uewagen' => array(
-//		'DISPLAY' => 'FeM Ü-Wagen',
-//		'STREAM' => 'sX', # TODO fix "suewagen"
-//		'PREVIEW' => true, # TODO check / run downloader on transcorder
-//		'TRANSLATION' => false,
-//		'SD_VIDEO' => true,
-//		'HD_VIDEO' => true,
-//		'DASH' => false,
-//		'AUDIO' => true,
-//		'SLIDES' => false,
-//		'MUSIC' => false,
-//
-//		'SCHEDULE' => false,
-//		'FEEDBACK' => false,
-//		'SUBTITLES' => false,
-//		'SUBTITLES_ROOM_ID' => 2,
-//		'EMBED' => true,
-//		'IRC' => false,
-//		'TWITTER' => true,
-//		'TWITTER_CONFIG' => array(
-//			'DISPLAY' => '@fem_office on twitter',
-//			'TEXT'    => '@fem_office',
-//		),
-//	),
+
+	'uewagen' => array(
+		'DISPLAY' => 'FeM Ü-Wagen',
+		'STREAM' => 'suewagen', # TODO fix "suewagen"
+		'PREVIEW' => true, # TODO check / run downloader on transcorder
+		'TRANSLATION' => false,
+		'SD_VIDEO' => false,
+		'HD_VIDEO' => true,
+		'DASH' => false,
+		'AUDIO' => true,
+		'SLIDES' => false,
+		'MUSIC' => false,
+
+		'SCHEDULE' => false,
+		'FEEDBACK' => false,
+		'SUBTITLES' => false,
+		'SUBTITLES_ROOM_ID' => 2,
+		'EMBED' => true,
+		'IRC' => false,
+		'TWITTER' => true,
+		'TWITTER_CONFIG' => array(
+			'DISPLAY' => '@fem_office on twitter',
+			'TEXT'    => '@fem_office',
+		),
+	),
 
 
 //
