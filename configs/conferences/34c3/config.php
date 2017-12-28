@@ -104,7 +104,7 @@ $CONFIG['CONFERENCE'] = array(
 	 *
 	 * Wird diese Zeile auskommentiert, wird der Link nicht angezeigt
 	 */
-	'RELIVE_JSON' => 'https://live.dus.c3voc.de/relive/34c3/index.json', # TODO check
+	'RELIVE_JSON' => 'https://live.dus.c3voc.de/relive/34c3/index.json',
 );
 
 /**
@@ -431,7 +431,7 @@ $CONFIG['ROOMS'] = array(
 		'EMBED' => true,
 		'IRC' => true,
 		'IRC_CONFIG' => array(
-			'DISPLAY' => '#34C3-hall-b @ hackint', # TODO check
+			'DISPLAY' => '#34C3-hall-b @ hackint',
 			'URL'     => 'irc://irc.hackint.eu:6667/34C3-hall-c',
 		),
 		'TWITTER' => true,
@@ -466,7 +466,7 @@ $CONFIG['ROOMS'] = array(
 		'EMBED' => true,
 		'IRC' => true,
 		'IRC_CONFIG' => array(
-			'DISPLAY' => '#34C3-hall-c @ hackint', # TODO check
+			'DISPLAY' => '#34C3-hall-c @ hackint',
 			'URL'     => 'irc://irc.hackint.eu:6667/34C3-hall-c',
 		),
 		'TWITTER' => true,
@@ -501,7 +501,7 @@ $CONFIG['ROOMS'] = array(
 		'EMBED' => true,
 		'IRC' => true,
 		'IRC_CONFIG' => array(
-			'DISPLAY' => '#34C3-hall-d @ hackint', # TODO check
+			'DISPLAY' => '#34C3-hall-d @ hackint',
 			'URL'     => 'irc://irc.hackint.eu:6667/34C3-hall-d',
 		),
 		'TWITTER' => true,
@@ -594,8 +594,8 @@ $CONFIG['ROOMS'] = array(
 		// https://events.ccc.de/congress/2017/wiki/index.php/Assembly:Freifunk
 		// https://wiki.freifunk.net/34c3/Timetable
 		// https://frab.txtfile.eu/en/34c3-ffc/public/schedule
-		'STREAM' => 'sfreifunk', # TODO fix "sfreifunk"
-		'PREVIEW' => true, # TODO check / run downloader on transcorder
+		'STREAM' => 'sfreifunk',
+		'PREVIEW' => true,
 		'TRANSLATION' => false,
 		'SD_VIDEO' => false,
 		'HD_VIDEO' => true,
@@ -619,7 +619,7 @@ $CONFIG['ROOMS'] = array(
 
 	'uewagen' => array(
 		'DISPLAY' => 'FeM Ü-Wagen',
-		'STREAM' => 'suewagen', # TODO fix "suewagen"
+		'STREAM' => 'suewagen',
 		'PREVIEW' => true, # TODO check / run downloader on transcorder
 		'TRANSLATION' => false,
 		'SD_VIDEO' => false,
