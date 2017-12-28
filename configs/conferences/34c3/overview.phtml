@@ -12,7 +12,7 @@
 		<div class="row room-group room-group-n<?=h($i++)?> room-group-<?=h(slugify($group))?>">
 
 			<? /* Forcefully add 4k stream block here in group "specials" BEGIN */ ?>
-			<? $fourkactive = false; ?>
+			<? $fourkactive = true; ?>
 			<? if ($fourkactive && slugify($group) === "specials"): ?>
 				<div class="room room-4k clearfix col-xs-12 col-md-6 has-preview has-schedule">
 						<a href="/configs/conferences/34c3/assets/4k.html">
