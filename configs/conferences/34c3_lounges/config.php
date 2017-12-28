@@ -124,7 +124,7 @@ $CONFIG['OVERVIEW'] = array(
 			'electric_cube',
 			'shell_beach',
 			'bar',
-			'kloparty',
+//			'kloparty',
 		),
 	),
 );
@@ -163,14 +163,14 @@ $CONFIG['ROOMS'] = array(
 		'EMBED' => false,
 		'DEFAULT_SELECTION' => '#switcher',
 	),
-	'kloparty' => array(
-		'DISPLAY' => 'Kloparty (Klo)',
-		'STREAM' => 'kloparty',
-		'MUSIC' => true,
-		'EMBED' => false,
-		'DEFAULT_SELECTION' => '#switcher',
-	),
-
+//	'kloparty' => array(
+//		'DISPLAY' => 'Kloparty (Klo)',
+//		'STREAM' => 'kloparty',
+//		'MUSIC' => true,
+//		'EMBED' => false,
+//		'DEFAULT_SELECTION' => '#switcher',
+//	),
+//
 );
 
 
