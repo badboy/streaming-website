@@ -14,7 +14,15 @@
 			<? /* Forcefully add 4k stream block here in group "specials" BEGIN */ ?>
 			<? $fourkactive = true; ?>
 			<? if ($fourkactive && slugify($group) === "specials"): ?>
-				<div class="room room-4k clearfix col-md-6 has-preview has-schedule">
+				<div class="room room-4k clearfix
+						<? if( ($count % 2 == 1) && ($idx == $count - 1) ): ?>
+							wide
+							col-xs-12
+						<? else: ?>
+							narrow
+							col-md-6
+						<? endif ?>
+						has-preview has-schedule">
 						<a href="/configs/conferences/34c3/assets/4k.html">
 						<div class="panel panel-default">
 							<div class="panel-heading">
