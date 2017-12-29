@@ -604,7 +604,8 @@ $CONFIG['ROOMS'] = array(
 		'SLIDES' => false,
 		'MUSIC' => false,
 
-		'SCHEDULE' => false,
+		'SCHEDULE' => true,
+		'SCHEDULE_NAME' => 'Open Infra Stage',
 		'FEEDBACK' => false,
 		'SUBTITLES' => false,
 		'SUBTITLES_ROOM_ID' => 2,
@@ -698,7 +699,7 @@ $CONFIG['SCHEDULE'] = array(
 	 *
 	 * Wird diese Zeile auskommentiert, werden alle Räume angezeigt
 	 */
-	'ROOMFILTER' => array('Saal Adams', 'Saal Borg', 'Saal Clarke', 'Saal Dijkstra'),
+	'ROOMFILTER' => array('Saal Adams', 'Saal Borg', 'Saal Clarke', 'Saal Dijkstra', 'Open Infra Stage'),
 
 	/**
 	 * Skalierung der Programm-Vorschau in Sekunden pro Pixel
