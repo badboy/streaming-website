@@ -17,7 +17,7 @@
 						<? if($scheduleRoom): ?>
 							<a
 								class="inner"
-								href="<?=h($scheduleRoom->createTabObject()->getLink($roomname))?>"
+								href="<?=h($scheduleRoom->getLink($roomname))?>"
 								title="Switch to <?=h($scheduleRoom->getDisplay())?>"
 							>
 						<? else: ?>
